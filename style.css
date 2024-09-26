@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #91bce2; /* สีพื้นหลังอ่อน */
+    color: #333; /* สีข้อความ */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* จัดกึ่งกลาง */
+    padding: 20px;
+    background-color: #ffffff; /* สีพื้นหลังของเนื้อหา */
+    border-radius: 8px; /* มุมโค้ง */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* เงา */
+}
+
+h1 {
+    text-align: center; /* จัดกลาง */
+    color: #2c3e50; /* สีหัวเรื่อง */
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center; /* จัดกลางฟอร์ม */
+    margin-bottom: 20px;
+}
+
+#citySelect {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* มุมโค้ง */
+    width: 70%; /* ความกว้างของ Select */
+}
+
+#getWeatherBtn {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px; /* มุมโค้ง */
+    background-color: #e07030; /* สีปุ่ม */
+    color: white; /* สีข้อความในปุ่ม */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นมือ */
+    margin-left: 10px;
+}
+
+.weather-container {
+    text-align: center; /* จัดกลางเนื้อหาสภาพอากาศ */
+}
+
+.icon {
+    width: 100px; /* กำหนดขนาดของไอคอน */
+    height: auto; /* ปรับความสูงตามสัดส่วน */
+}
+
+.weather-info {
+    margin: 10px 0; /* ระยะห่างระหว่างบรรทัด */
+    font-size: 18px; /* ขนาดฟอนต์ */
+}
